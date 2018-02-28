@@ -1,0 +1,23 @@
+una pizeria toma ordenes 3 ordenes tiene un cotandor 
+
+1.
+Se debe calcular un impuesto a las ventas del 6% por cada pedido completo. Esto debe basarse en el subtotal.
+El total, que es el subtotal más impuestos, también debe calcularse.
+Comencemos con el cálculo del impuesto. Bajo la función getSubTotal (), 
+crea una expresión de función usando la variable const llamada getTax. Debería tomar un parámetro, orderCount.
+
+2.
+Dentro de la función getTax (), llame a su función getSubTotal () y páselo por el argumento orderCount para obtener el subtotal, y luego multiplique el valor devuelto por un 6% (0.06). Asegúrese de devolver el resultado de esta operación.
+
+
+3.
+¡Buen trabajo! Ahora que calculó el impuesto, declare otra función llamada getTotal () debajo de la función getTax (). La función getTotal () no debería tener parámetros.
+
+Dentro del bloque de la función getTotal (), agregue el subtotal al impuesto y luego devuelva el resultado.
+
+
+
+4.
+En la última línea del programa, llame a la función getTotal () dentro de una instrucción console.log () para ver el resultado.
+
+¡Camino a seguir! Usted escribió cuatro funciones desde cero e incluso las pasó una a la otra. ¡Eso es increíble!
