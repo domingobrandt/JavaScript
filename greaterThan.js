@@ -1,12 +1,19 @@
-function isGreaterThan(numberOne, numberTwo){
-    if(numberOne > numberTwo){
-      return true;
-    } else {
-      return false;
-    }
+/*Refactor the function declaration to be a function expression using arrow function syntax.
+
+Be sure to call the function at the end.*/
+
+const isGreaterThan = (numberOne, numberTwo) => {
+  if(numberOne > numberTwo){
+    return true;
+  } else {
+    return false;
   }
-  
-  isGreaterThan(4, 8)
+}
+
+isGreaterThan(4, 8)
+
+
+
 /*Function Declarations
 Now that we have an understanding of functions in JavaScript, let's take a broader look at the type of functions we'll see. Functions in JavaScript are generally declared as either a function declaration or a function expression.
 
@@ -44,3 +51,14 @@ if (some condition) {
 Call the isGreaterThan() function with two arguments of your choice.
 
 isGreaterThan(5, 7);*/
+
+
+function isGreaterThan(numberOne, numberTwo){
+    if(numberOne > numberTwo){
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  isGreaterThan(4, 8)
