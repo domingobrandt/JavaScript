@@ -1,4 +1,4 @@
-
+/*on the screen result = Run a marathon Read 52 books undefined */
 let newYearsResolutions 
 = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
 
