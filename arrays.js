@@ -8,7 +8,7 @@ Then use console.log() to print the listItem variable to the console.
 arregle dentro de otro arreglo */
 
 let newYearsResolutions 
-= ['Run a marathon', 'Learn a new language', 'Read 52 books'];
+= ['Run a marathon', 'Learn a new language', 'Read 52 books','God loves you'];
 
 let listItem = newYearsResolutions[0];
 //update an elements for arrays
@@ -21,4 +21,6 @@ console.log(newYearsResolutions[2]);
 console.log(newYearsResolutions[3]);
 //length property :how many items are stored inside of an array.
 console.log(newYearsResolutions.length);
-//on the screen result = Run a marathon Read 52 books undefined 
+
+//on the screen result = Run a marathon cambio perfectos God loves you 4
+
