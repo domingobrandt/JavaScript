@@ -3,6 +3,9 @@ let newYearsResolutions
 = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
 
 let listItem = newYearsResolutions[0];
+//update an elements for arrays
+newYearsResolutions[2] = 'cambio perfectos';
+
 console.log(listItem);
 
 console.log(newYearsResolutions[2]);
