@@ -13,6 +13,10 @@ let newYearsResolutions
 let listItem = newYearsResolutions[0];
 //update an elements for arrays
 newYearsResolutions[2] = 'cambio perfectos';
+//push Method  allows us to add items to the end of an array.
+newYearsResolutions.push('come');
+//method .pop(), is similar to .push(). This method removes the last item of an array.
+newYearsResolutions.pop();
 
 console.log(listItem);
 
@@ -21,6 +25,8 @@ console.log(newYearsResolutions[2]);
 console.log(newYearsResolutions[3]);
 //length property :how many items are stored inside of an array.
 console.log(newYearsResolutions.length);
+//to print the arrays, to make sure mine items were added
+console.log(newYearsResolutions);
 
 //on the screen result = Run a marathon cambio perfectos God loves you 4
 
