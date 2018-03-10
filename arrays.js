@@ -21,6 +21,8 @@ newYearsResolutions.pop();
 newYearsResolutions.shift();
 // add to the front to the beginning of you newYearsResolutions
 newYearsResolutions.unshift('finish my thesis');
+//Add to the end of an Array
+newYearsResolutions.push('love');
 //imprime los lugares del 1 al 4
 console.log(newYearsResolutions.slice(1, 4));
 //imprime el de la posicion 0
@@ -34,5 +36,14 @@ console.log(newYearsResolutions.length);
 //to print the arrays, to make sure mine items were added
 console.log(newYearsResolutions);
 
-//on the screen result = Run a marathon cambio perfectos God loves you 4
-
+/*on the screen result = 
+[ 'Learn a new language', 'cambio perfectos', 'God loves you' ]
+Run a marathon
+cambio perfectos
+God loves you
+4
+[ 'finish my thesis',
+  'Learn a new language',
+  'cambio perfectos',
+  'God loves you' ]
+*/
