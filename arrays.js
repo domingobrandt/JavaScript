@@ -17,7 +17,13 @@ newYearsResolutions[2] = 'cambio perfectos';
 newYearsResolutions.push('come');
 //method .pop(), is similar to .push(). This method removes the last item of an array.
 newYearsResolutions.pop();
-
+//More Array Methods method to remove the first item from the array 'Run a marathon'
+newYearsResolutions.shift();
+// add to the front to the beginning of you newYearsResolutions
+newYearsResolutions.unshift('finish my thesis');
+//imprime los lugares del 1 al 4
+console.log(newYearsResolutions.slice(1, 4));
+//imprime el de la posicion 0
 console.log(listItem);
 
 console.log(newYearsResolutions[2]);
