@@ -61,4 +61,4 @@ function sum(...nums) {
     return total;
 }
 /*This version of the sum() function is both more concise and is easier to read. 
-Also, notice the for...in loop has been replaced with the new for...of loop./
+Also, notice the for...in loop has been replaced with the new for...of loop.*/
