@@ -18,5 +18,19 @@ console.log(groceryList.slice(1,2));
 console.log(groceryList);
 
 /*
-console.log(groceryList.slice(1, 4));
-console.log(groceryList);*/
+[ 'popcorn',
+  'bananas',
+  'coffee beans',
+  'brown rice',
+  'pasta',
+  'coconut oil',
+  'plantains' ]
+[ 'bananas' ]
+[ 'popcorn',
+  'bananas',
+  'coffee beans',
+  'brown rice',
+  'pasta',
+  'coconut oil',
+  'plantains' ]
+*/
