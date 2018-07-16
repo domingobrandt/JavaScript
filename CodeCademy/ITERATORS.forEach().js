@@ -13,3 +13,14 @@ fruits.forEach(function(fruitItem){
 })
 
 fruits.forEach(fruitItem => console.log("I want to eat a "+ fruitItem))
+
+/* the console shows
+I want to eat a mango
+I want to eat a papaya
+I want to eat a pineapple
+I want to eat a apple
+I want to eat a mango
+I want to eat a papaya
+I want to eat a pineapple
+I want to eat a apple
+*/
